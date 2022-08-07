@@ -63,6 +63,16 @@ body {
     list-style-type: none;
 }
 
+li {
+    transition: 1s;
+}
+
+li:hover {
+    font-size: 16.2px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
 
 
 .welcome {
@@ -100,9 +110,8 @@ body {
 }
 
 .cellphonescreen {
-    height: 550px;
-    width: 275px;
-    background-color: #3b3b3b;
+    height: 590px;
+    width: 300px;
     border-radius: 20px;
 }
 
@@ -248,6 +257,60 @@ body {
 .contact {
     height: 60vh;
     background-color: #355580;
+}
+
+.services {
+    height: 105vh;
+    background-color: #355580;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: #ffffff;
+}
+
+.service-tittle {
+    font-size: 40pt;
+    font-weight: 100;
+    margin-bottom: 10pt;
+}
+
+.service-subtittle {
+    font-size: 15pt;
+    font-weight: 100;
+
+}
+
+.service-left-side {
+    width: 80vw;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.cellphonescreen02 {
+    height: 590px;
+    width: 300px;
+
+    border-radius: 20px;
+}
+
+.service-right-side {
+    width: 1vw;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 /* 
