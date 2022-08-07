@@ -1,0 +1,261 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+body {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background: repeating-linear-gradient(45deg, #355580, #355580 20px, #e5e5f7 20px, #e5e5f7 100px);
+}
+
+.app-bar {
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: #20344F;
+}
+
+.logo {
+    height: 130%;
+    width: 6%;
+}
+
+.navigation {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.navigation li {
+    padding: 19px 0px;
+    transition: 0.5s;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.navigation li:hover {
+    background-color: #162436;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.welcome-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.welcome-left-side {
+    width: 35vw;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #3b3b3b;
+}
+
+.cellphonescreen {
+    height: 550px;
+    width: 275px;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+}
+
+.main-tittle {
+    font-size: 65pt;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-weight: 100;
+    font-size: 30pt;
+}
+
+.welcome-text {
+    margin-bottom: 60px;
+}
+
+.download-button {
+    padding: 20px 50px;
+    border: 1px solid #000000;
+    border-radius: 55px;
+    background-color: transparent;
+    color: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+.download-button:hover {
+    border: 1px solid #20344F;
+    color: #ffffff;
+    background-color: #20344F;
+}
+
+.download-button-text {
+    font-size: 15px;
+}
+
+.welcome-right-side {
+    width: 30vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    height: 75vh;
+    background-color: #2F7DA4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: #ffffff;
+}
+
+.app-st-text {
+    font-size: 50pt;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.app-nd-text {
+    font-size: 15pt;
+
+}
+
+.app-button-field a {
+    margin: 0px 20px;
+}
+
+.icon {
+    height: 100px;
+}
+
+.about-us {
+    height: 110vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.about-us-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.about-us-tittle {
+    font-size: 50pt;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.about-us-text {
+    font-size: 15pt;
+    margin-bottom: 10pt;
+}
+
+.contact-button {
+    padding: 17px 45px;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+.contact-button:hover {
+    border: 1px solid #20344F;
+    color: #ffffff;
+    background-color: #20344F;
+}
+
+.contact-button-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contact {
+    height: 60vh;
+    background-color: #355580;
+}
+
+/* 
+
+Texto       {#3b3b3b}
+Azul-ll     {#3478AC}
+Azul-l      {#2F7DA4}
+Azul-m      {#213550}
+Azul-h      {#20344F}
+
+*/
