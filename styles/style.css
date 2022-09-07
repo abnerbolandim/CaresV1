@@ -18,6 +18,7 @@ body {
 }
 
 .app-bar {
+    z-index: 99;
     position: fixed;
     display: flex;
     justify-items: center;
@@ -76,7 +77,7 @@ li:hover {
 
 
 .welcome {
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -118,6 +119,7 @@ li:hover {
 .main-tittle {
     font-size: 65pt;
     margin-bottom: 20px;
+    color: black;
 }
 
 .welcome-text {
@@ -225,6 +227,7 @@ li:hover {
     font-size: 50pt;
     font-weight: 500;
     margin-bottom: 30px;
+    color: black;
 }
 
 .about-us-text {
@@ -254,10 +257,7 @@ li:hover {
     font-weight: 600;
 }
 
-.contact {
-    height: 60vh;
-    background-color: #355580;
-}
+
 
 .services {
     height: 105vh;
@@ -281,36 +281,177 @@ li:hover {
     font-size: 40pt;
     font-weight: 100;
     margin-bottom: 10pt;
+
 }
 
 .service-subtittle {
     font-size: 15pt;
     font-weight: 100;
+    margin-bottom: 30pt;
+
 
 }
 
-.service-left-side {
-    width: 80vw;
-    display: flex;
-    justify-items: center;
-    align-items: flex-start;
-    flex-direction: column;
 
-}
+
 
 .cellphonescreen02 {
     height: 590px;
     width: 300px;
-
+    margin-right: 50px;
     border-radius: 20px;
 }
 
-.service-right-side {
-    width: 1vw;
+
+
+.service-content {
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+}
+
+.service-card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #20344f;
+    border-radius: 20px;
+    max-width: 250px;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px 30px 0;
+}
+
+.two-cards {
+    display: flex;
+}
+
+.service-card-attendance {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.service-card-dailyreport {
+    height: 95px;
+    width: 95px;
+    margin-bottom: 10px;
+}
+
+.service-card-text {
+    font-size: 20px;
+}
+
+.service-card-doctor {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.service-card-phonecall {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    height: 98vh;
     display: flex;
     justify-items: center;
-    align-items: flex-end;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #191919;
+}
+
+h1,
+h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.contact-icon {
+
+    height: 150px;
+    width: 150px;
+}
+
+.contact-title {
+    content: "📧";
+    display: block;
+}
+
+h2::before {
+    content: "🐅";
+    display: block;
+}
+
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+.form button {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background: #09d;
 }
 
 /* 
