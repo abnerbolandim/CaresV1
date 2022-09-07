@@ -23,7 +23,7 @@
                 <ul class="navigation">
                     <li><a href="#aplicativo" class="nav-button-app">Aplicativo</a>
                     <li><a href="#sobre_nos" class="nav-button-about-us">Sobre Nós</a>
-                    <li><a href="serviço" class="nav-button-services">Serviços</a>
+                    <li><a href="#servico" class="nav-button-services">Serviços</a>
                     <li><a href="#contato" class="nav-button-contact">Contato</a>
                 </ul>
             </nav>
@@ -125,7 +125,7 @@
 
         <section class="services">
 
-            <div id="serviço" class="service-text">
+            <div id="servico" class="service-text">
 
                 <p class="service-tittle">
                     Aplicativo com funcionamento 24h/dia!
@@ -137,33 +137,96 @@
 
 
 
-                <div class="service-left-side">
+                <div class="service-content">
                     <img class="cellphonescreen02" src="images/cellphonehomepage.png" alt="Logo">
+                    <div class="cards-wrapper">
+                        <div class="two-cards">
+
+                            <div class="service-card">
+                                <img class="service-card-attendance" src="images/attendance.png" alt="Logo">
+
+                                <p class="service-card-text">
+                                    Atendimento de alta qualidade!
+                                </p>
+
+
+                            </div>
+                            <div class="service-card">
+                                <img class="service-card-dailyreport" src="images/dailyreport.png" alt="Logo">
+
+
+                                <p class="service-card-text">
+                                    Relatos fornecidos aos familiares.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="two-cards">
+                            <div class="service-card">
+                                <img class="service-card-doctor" src="images/doctor.png" alt="Logo">
+
+                                <p class="service-card-text">
+                                    Escolha você, o cuidador(a)!
+                                </p>
+
+
+                            </div>
+                            <div class="service-card">
+                                <img class="service-card-phonecall" src="images/phonecall.png" alt="Logo">
+
+
+                                <p class="service-card-text">
+                                    Entre em contato contato.cares@gmail.com
+                                </p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
 
-                <div class="service-right-side">
-                    <h5 class="service-right-side-tittle">
-                        Cuidadores
-                    </h5>
 
-                    <p class="service-right-side-subtittle">
-
-                    </p>
-
-                </div>
             </div>
         </section>
 
+        <section class="contact">
+            <div id="contato">
+
+                <img class="contact-icon" src="images/gmail.png">
+                <h1 class="contact-title">Mande feedback/reporte</h1>
+
+                <form action="https://formsubmit.co/tccgrupoafj@gmail.com" method="POST" class="form">
+
+
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required />
+
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required />
+
+
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea>
+
+
+                    <input type="hidden" name="_captcha" value="false" />
+
+
+
+                    <button type="submit">Enviar</button>
+        </section>
+
     </main>
-
-    <footer>
-        <img src="" alt="" class="logo">
-
-        <div class="copyright">
-
-        </div>
-    </footer>
 
 </body>
 
