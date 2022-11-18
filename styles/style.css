@@ -30,8 +30,8 @@ body {
 }
 
 .logo {
-    height: 130%;
-    width: 6%;
+    height: 100%;
+    width: 4%;
 }
 
 .navigation {
@@ -77,7 +77,7 @@ li:hover {
 
 
 .welcome {
-    height: 98vh;
+    height: 120vh;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -90,12 +90,12 @@ li:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     width: 80vw;
     border: 2px solid black;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -161,8 +161,8 @@ li:hover {
 }
 
 .app {
-    height: 75vh;
-    background-color: #2F7DA4;
+    height: 85vh;
+    background-color: #355580;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,6 +204,7 @@ li:hover {
     align-items: center;
     justify-content: space-evenly;
     background-color: transparent;
+    flex-direction: column;
 }
 
 .about-us-banner {
@@ -216,23 +217,33 @@ li:hover {
     width: 80vw;
     border: 2px solid black;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 1, 1);
 }
 
 .about-us-tittle {
     font-size: 50pt;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 30px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-us-text {
     font-size: 15pt;
     margin-bottom: 10pt;
+}
+
+.wrap-btn {
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
 }
 
 .contact-button {
@@ -260,7 +271,7 @@ li:hover {
 
 
 .services {
-    height: 105vh;
+    height: 120vh;
     background-color: #355580;
     display: flex;
     flex-direction: column;
@@ -358,7 +369,7 @@ li:hover {
 }
 
 .contact {
-    height: 98vh;
+    height: 120vh;
     display: flex;
     justify-items: center;
     align-items: center;
